@@ -36,3 +36,108 @@
     transform: rotate(360deg);
   }
 }
+
+.filter {
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10px;
+  width: 150px;
+}
+
+.filter-selected {
+  background-color: rgb(66, 62, 62);
+  color: white;
+}
+
+.filter-img {
+  padding: 10px;
+}
+
+
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v139/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+.shop-card-header {
+  text-align: center;
+}
+
+.shop-card {
+  padding: 10px;
+  margin: 50px !important;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+  margin: 10px;
+  max-width: 300px;
+  background-color: #f5f5f5;
+}
+
+.shop-card-img {
+  max-width: 80%;  
+  height: auto;    
+}
+
+.shop-card-btn {
+  float: right;
+  margin: 10px;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.price {
+  color: red;
+  font-size: 30px
+}
+
+.add-to-cart-btn {
+  color: red;
+  border-radius: 30px;
+  border: 2px solid red;
+  width: 150px;
+  height: 50px;
+  font-weight: 1000;
+}
+
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  height: 100px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr {
+  border: 2px solid white;
+  background-color: #f5f5f5;
+  text-align: center;
+}
